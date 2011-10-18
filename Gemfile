@@ -1,18 +1,21 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.0'
+
 group :production do
   gem 'pg'
 end
+
 group :development, :test do
   gem 'sqlite3'
 end
+
 gem 'gravatar_image_tag'
 gem 'will_paginate'
 
 group :development do
 	gem 'rspec-rails'
-	gem 'annotate'
+	gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 	gem 'faker'
 end
 
