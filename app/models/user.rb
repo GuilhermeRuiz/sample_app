@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  attr_accessible :name, :email
 end
 # == Schema Information
 #
@@ -10,4 +11,3 @@ end
 #  created_at :datetime
 #  updated_at :datetime
 #
-
