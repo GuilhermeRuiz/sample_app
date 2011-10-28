@@ -4,6 +4,7 @@ gem 'rails', '3.1.0'
 
 group :production do
   gem 'pg'
+  gem 'faker'
 end
 
 group :development, :test do
