@@ -168,3 +168,13 @@ div.field, div.actions {
   font-size: 12px;
   list-style: square;
 }
+
+.users {
+  margin-top: 1em;
+  width: 100%;
+}
+
+.users  li {
+  list-style: none;
+  width: 100%;
+}

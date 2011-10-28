@@ -28,4 +28,8 @@ RSpec.configure do |config|
   def test_sign_in(user)
     controller.sign_in(user)
   end
+  
+  def teste_logado
+    controller.signed_in?
+  end
 end
